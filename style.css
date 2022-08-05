@@ -1,0 +1,210 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.rasm   {
+    padding-top:50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+ .nav-list ul{
+    display: flex;
+    list-style: none;
+    margin-top: 60px;
+
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nav-list li a{
+    
+    margin-right:45px;
+    color: #bab9b9;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+     padding: 0 10px; 
+    letter-spacing: 0.5px;
+    font-size: 16px; 
+    position: relative; 
+  
+}
+
+.rasm-2{
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    
+
+}
+
+ 
+body{
+   
+    list-style: none;
+}
+
+    
+
+
+.nav-list li:hover a{
+    color: #0e82e7;
+}
+
+a:after{
+    content: "";
+     position: absolute;
+    background-color: #6bb2f3; 
+    /* height: 1.5px;
+    width: 0;
+    left: 0;
+    bottom: -10px;  */
+    
+}
+
+a:hover::after{
+    width: 100%
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+    
+}
+
+.main-info{
+    display: flex;
+    padding: 0 25px;
+   
+}
+
+ .main-info-left{
+    width: 750px;
+    height: 500px;
+    background-color: #f0f0f0;
+
+}
+.main-info-right{
+    width: 350px;
+    height: 500px;
+    background-color: #f0f0f0;
+    margin-left: 30px;
+    
+   
+   
+}
+.main-info{
+    width: 1110px;
+    height: 500px;
+   
+}
+.info-bottom{
+   padding-top: 25px;
+   padding-bottom: 70px;
+   padding-left: 40px;
+   padding-right: 105px;
+   line-height: 30px;
+   font-weight: 400;
+   color: #7f7f7f;
+   
+} 
+.info-top{
+   padding-top: 50px;
+   padding-left: 40px;
+   color: #4581b7;
+   font-weight: 700;
+}
+
+.info-top-2 h4{
+   padding-left: 40px;
+   padding-top: 50px;
+   color: #4581b7;
+   font-weight: 700;
+}
+
+.info-bottom-2{
+    padding-top: 30px;
+    padding-left: 40px; 
+    padding-right: 55px;
+    color: #7f7f7f;
+    line-height: 30px;  
+    font-weight: 400;
+}
+
+.nomer{
+    padding-top: 50px;
+    padding-left: 40px;
+    color: #7f7f7f;
+    line-height: 30px;  
+    font-weight: 400;
+    padding-right: 55px;
+}
+
+.pochta{
+    padding-top: 50px;
+    padding-left: 40px;
+    color: #7f7f7f;
+    line-height: 30px;  
+    font-weight: 400;
+    padding-right: 55px;  
+}
+ 
+ .dovomi{
+    margin-top: 30px;
+    width: 1110px;
+    height: 150px;
+    background-color:#f0f0f0;
+    margin-left: 45px;
+   
+}
+.nom{
+    padding-top: 10px;
+    padding-right: 45px;
+   
+
+ } 
+
+.kok{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 41px;
+    
+} 
+footer{
+    margin-top: 39px;
+}
+.dovomi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 44px;
+    margin-right: 44px;
+    background-color: #f0f0f0;
+}
+.nom p{
+    font-weight: 400;
+    color: #7f7f7f;
+}
+.nom h2{
+    margin-left: 65px;
+}
